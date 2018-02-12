@@ -14,3 +14,9 @@
 
 
 $number = [1,2,3,4];
+
+$number[4]=5;
+$number[5]=6;
+
+echo count($number);
+echo $number[1];
