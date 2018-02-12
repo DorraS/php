@@ -8,11 +8,8 @@
 */
 
 
-
 $number = [1,2,3,4];
 $insert = ["A","B","C"];
-
-
-/**
-* Coder ici
-*/
+$resultat= array_merge($number,$insert);
+var_dump ($resultat);
+?>
