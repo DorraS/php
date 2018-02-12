@@ -20,3 +20,4 @@ $number[5]=6;
 
 echo count($number);
 echo $number[1];
+?>
