@@ -29,6 +29,7 @@ for($i=0; $i<strlen($sentence);$i++){
 	for($j=0;$j<strlen($voyelle);$j++){
 		if($voyelle[$j]==$sentence[$i]){
 			$compteur++;
+			break;
 		}
 	}
 }
